@@ -1,0 +1,80 @@
+body {
+  background-color: #d3d3d3;
+}
+
+.calculator {
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 300px;
+  height: 385px;
+  padding-top: 30px;
+  border-radius: 30px;
+  box-shadow: -5px -5px 5px 5px #222222 inset;
+  background-color: #4f4f4f;
+}
+button {
+  width: 59px;
+  height: 50px;
+  margin: 3px auto;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: -1px -1px 2px 2px #222222 inset;
+  /*padding: 5px 5px 5px 5px;*/
+  background-color: #35383e;
+}
+
+.clear {
+  background-color: #a23503;
+}
+
+.operator {
+  background-color: #1f3a89;
+}
+
+#buttons {
+  margin: 15px auto;
+  width: 250px;
+}
+
+#results {
+  margin: 10px auto;
+  width: 250px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid #222222;
+  background-color: #dcddb1;
+}
+
+button.zero {
+  width: 122px;
+}
+
+button#equals {
+  height: 106px;
+}
+
+button#equals {
+  position: relative;
+  bottom: 56px;
+}
+
+button.zero, button#decimal {
+  position: relative;
+  bottom: 28px;
+}
+
+#resultScreen {
+  text-align: right;
+  padding: 5px 5px 0px;
+  font-size: 26px;
+}
+
+#equationScreen {
+  padding-left: 4px;
+  font-size: 12px;
+  margin: 0px;
+  text-align: left;
+}
